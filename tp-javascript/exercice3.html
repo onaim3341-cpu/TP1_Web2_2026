@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice3</title>
+</head>
+<body>
+    <script>
+        const TAUX_TVA=0.20;
+        let prixHT=150;
+        let prixTTC = prixHT +(TAUX_TVA*prixHT);
+        console.log("Prix HT :",prixHT,"€ | TVA (",TAUX_TVA*100,"%) : ",TAUX_TVA*prixHT," € | Prix TTC :",prixTTC,"€");
+        TAUX_TVA=0.50;
+        console.log(`Prix TTC : ${prixTTC} €`);
+        //lorsque j'ai modifier le TVA j'ai rencontre un erreur de modifier une constante 
+    </script>
+</body>
+</html>

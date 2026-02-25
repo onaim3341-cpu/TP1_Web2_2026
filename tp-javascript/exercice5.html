@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titre">..</title>
+</head>
+<body>
+
+    <h1>Ma fiche de présentation</h1>
+    <p id="nomComplet">...</p>
+    <p id="age">...</p>
+    <p id="ville">...</p>
+    <p id="presentation">...</p>
+ 
+    <script>
+    let prenom="Oumayma", nom=" NAIM ", age=19, ville="Marrakech";
+    document.getElementById("nomComplet").innerHTML=prenom + nom;
+    document.getElementById("age").innerHTML=age;
+    document.getElementById("ville").innerHTML=ville;
+    document.getElementById("presentation").innerHTML="Je m'appelle "+ prenom + nom + "j'ai " + age + "ans et j'habite à " + ville;
+    document.title="Fiche de " + prenom;
+    //document.getElementById("titre").innerHTML="Fiche de " + prenom;
+    
+    </script>
+   
+</body>
+</html>

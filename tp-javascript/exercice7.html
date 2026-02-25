@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercice7</title>
+</head>
+<body>
+    <h1> Calculatrice de cercle</h1>
+    <div id="rayon"></div>
+    <div id="perimetre"></div>
+    <div id="surface"></div>
+    <script>
+        const PI = Math.PI;
+        let rayon = prompt("Saisir le rayon du cercle: ");
+        Number(rayon);
+        let perimetre = 2 * PI *rayon;
+        let surface = PI * rayon * rayon;
+        document.getElementById("rayon").innerHTML="Rayon : " + rayon + "cm";
+        document.getElementById("perimetre").innerHTML="Perimetre :  : " + perimetre.toFixed(2) + "cm";
+        document.getElementById("surface").innerHTML="Rayon : " + rayon.toFixed(2) + "cm²";
+
+    </script>
+</body>
+</html>
